@@ -1,6 +1,6 @@
 $(function () {
   // popup
-  $('.bg2 a').click(function () {
+  $('.bg2 li:nth-child(1) a').click(function () {
     $('.pop1').fadeIn();
   });
   $('.bg3 a').click(function () {
